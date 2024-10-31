@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+    </header>
+
+    <main>
+        <section id="products-container"></section>
+        <section id="cart-container">
+            <h2>Your Cart</h2>
+            <div id="cart-items-container">
+                <p id="cart-items">Cart is empty</p>
+                <button id="increase-btn" style="display: none;">+</button>
+                <button id="decrease-btn" style="display: none;">-</button>
+            </div>
+            <p id="cart-total">Total: $0</p>
+            <button id="checkout-btn">Checkout</button>
+            <button id="close-cart">Close</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024 Shopping Cart</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

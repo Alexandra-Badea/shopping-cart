@@ -4,11 +4,11 @@
 This project is a simple shopping cart application that allows users to view products, add them to their cart, and proceed to checkout. The application is built using HTML, CSS, and JavaScript.
 
 ## Features
-- Display a list of products (to be implemented).
+- Display a list of products.
 - Add products to the shopping cart.
 - Increase or decrease the quantity of items in the cart.
 - Display the total price of items in the cart.
-- Checkout functionality (to be implemented).
+- Checkout functionality.
 - Responsive design for mobile and desktop views.
 
 ## Technologies Used
@@ -32,3 +32,4 @@ This project is a simple shopping cart application that allows users to view pro
 - Click on the cart icon to view your cart.
 - Use the "+" and "-" buttons to adjust the quantity of items in your cart.
 - The total price will update automatically as you add or remove items.
+  
